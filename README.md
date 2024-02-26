@@ -6,8 +6,8 @@ Build a simple master-detail application that displays a list of people from you
 the list, use /persons endpoint).
 The app should contain:
 
-A screen with the list of people obtained from Pipedrive API
-A screen with each person details that is accessible from the list screen
+- A screen with the list of people obtained from Pipedrive API
+- A screen with each person details that is accessible from the list screen
 
 ## How to compile and run the application
 This application is written in Swift and requires the Swift Package Manager. To compile and run the application, you will need to:
