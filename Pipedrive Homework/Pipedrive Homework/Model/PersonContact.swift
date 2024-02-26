@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct PersonContact: Codable, Hashable {
+    var label: String?
+    var value: String?
+    var primary: Bool?
+}

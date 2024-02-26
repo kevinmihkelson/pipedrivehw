@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct AdditionalData: Codable {
+    let pagination: Pagination
+}

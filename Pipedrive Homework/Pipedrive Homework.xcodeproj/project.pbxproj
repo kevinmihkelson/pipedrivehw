@@ -11,11 +11,36 @@
 		7D60442F2B87B61200117370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60442E2B87B61200117370 /* ContentView.swift */; };
 		7D6044312B87B61300117370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6044302B87B61300117370 /* Assets.xcassets */; };
 		7D6044342B87B61300117370 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6044332B87B61300117370 /* Preview Assets.xcassets */; };
-		7D6044362B87B61300117370 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044352B87B61300117370 /* Persistence.swift */; };
-		7D6044392B87B61300117370 /* Pipedrive_Homework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044372B87B61300117370 /* Pipedrive_Homework.xcdatamodeld */; };
 		7D6044432B87B61300117370 /* Pipedrive_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044422B87B61300117370 /* Pipedrive_HomeworkTests.swift */; };
 		7D60444D2B87B61300117370 /* Pipedrive_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60444C2B87B61300117370 /* Pipedrive_HomeworkUITests.swift */; };
 		7D60444F2B87B61300117370 /* Pipedrive_HomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60444E2B87B61300117370 /* Pipedrive_HomeworkUITestsLaunchTests.swift */; };
+		7D60445D2B87B6F500117370 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60445C2B87B6F500117370 /* Person.swift */; };
+		7D6044642B87B94300117370 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044632B87B94300117370 /* PersonViewModel.swift */; };
+		7D6044662B87B9F700117370 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044652B87B9F700117370 /* APIClient.swift */; };
+		7D6044682B87BA2100117370 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044672B87BA2100117370 /* APIRouter.swift */; };
+		7D60446B2B87BA9900117370 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D60446A2B87BA9900117370 /* Alamofire */; };
+		7D60446D2B87BBE300117370 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60446C2B87BBE300117370 /* APIConfig.swift */; };
+		7D6044702B87BED600117370 /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60446F2B87BED600117370 /* PersonService.swift */; };
+		7D60447C2B87E5F500117370 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60447B2B87E5F500117370 /* ResponseModel.swift */; };
+		7D60448A2B88A69400117370 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044892B88A69400117370 /* JSONDecoder.swift */; };
+		7D6044962B88B11A00117370 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044942B88B11A00117370 /* CoreDataModel.xcdatamodeld */; };
+		7D6044A52B88D77600117370 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044A42B88D77600117370 /* CoreDataManager.swift */; };
+		7D6044A72B88DFEC00117370 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044A62B88DFEC00117370 /* Connectivity.swift */; };
+		7D6044A92B88F10B00117370 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044A82B88F10B00117370 /* PersonView.swift */; };
+		7D6044AB2B88F18A00117370 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044AA2B88F18A00117370 /* PersonDetailView.swift */; };
+		7D6044AE2B8B626B00117370 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6044AD2B8B626B00117370 /* Kingfisher */; };
+		7D6044B12B8B732C00117370 /* PersonDetailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044B02B8B732C00117370 /* PersonDetailField.swift */; };
+		7D6044B32B8B79A500117370 /* PersonContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044B22B8B79A500117370 /* PersonContact.swift */; };
+		7D6044B52B8B7E2500117370 /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6044B42B8B7E2500117370 /* PersonListView.swift */; };
+		7DF195F52B8B8B7100444A50 /* PersonContactMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195F12B8B8B7100444A50 /* PersonContactMO+CoreDataClass.swift */; };
+		7DF195F62B8B8B7100444A50 /* PersonContactMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195F22B8B8B7100444A50 /* PersonContactMO+CoreDataProperties.swift */; };
+		7DF195F72B8B8B7100444A50 /* PersonMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195F32B8B8B7100444A50 /* PersonMO+CoreDataClass.swift */; };
+		7DF195F82B8B8B7100444A50 /* PersonMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195F42B8B8B7100444A50 /* PersonMO+CoreDataProperties.swift */; };
+		7DF195FA2B8B9DAC00444A50 /* NSSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195F92B8B9DAC00444A50 /* NSSet.swift */; };
+		7DF195FC2B8BA91300444A50 /* MockPersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF195FB2B8BA91300444A50 /* MockPersonService.swift */; };
+		7DFF48AD2B8C899D000DCC9F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7DFF48AC2B8C899C000DCC9F /* Localizable.xcstrings */; };
+		7DFF48AF2B8C8C22000DCC9F /* AdditionalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF48AE2B8C8C22000DCC9F /* AdditionalData.swift */; };
+		7DFF48B12B8C8C3D000DCC9F /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF48B02B8C8C3D000DCC9F /* Pagination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +66,36 @@
 		7D60442E2B87B61200117370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D6044302B87B61300117370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D6044332B87B61300117370 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7D6044352B87B61300117370 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		7D6044382B87B61300117370 /* Pipedrive_Homework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pipedrive_Homework.xcdatamodel; sourceTree = "<group>"; };
 		7D60443E2B87B61300117370 /* Pipedrive HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pipedrive HomeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6044422B87B61300117370 /* Pipedrive_HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipedrive_HomeworkTests.swift; sourceTree = "<group>"; };
 		7D6044482B87B61300117370 /* Pipedrive HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pipedrive HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D60444C2B87B61300117370 /* Pipedrive_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipedrive_HomeworkUITests.swift; sourceTree = "<group>"; };
 		7D60444E2B87B61300117370 /* Pipedrive_HomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipedrive_HomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D60445C2B87B6F500117370 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7D6044632B87B94300117370 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		7D6044652B87B9F700117370 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7D6044672B87BA2100117370 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		7D60446C2B87BBE300117370 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		7D60446F2B87BED600117370 /* PersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonService.swift; sourceTree = "<group>"; };
+		7D60447B2B87E5F500117370 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		7D6044892B88A69400117370 /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		7D6044952B88B11A00117370 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		7D6044A42B88D77600117370 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7D6044A62B88DFEC00117370 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		7D6044A82B88F10B00117370 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		7D6044AA2B88F18A00117370 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		7D6044B02B8B732C00117370 /* PersonDetailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailField.swift; sourceTree = "<group>"; };
+		7D6044B22B8B79A500117370 /* PersonContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonContact.swift; sourceTree = "<group>"; };
+		7D6044B42B8B7E2500117370 /* PersonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		7DF195F12B8B8B7100444A50 /* PersonContactMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonContactMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7DF195F22B8B8B7100444A50 /* PersonContactMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonContactMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7DF195F32B8B8B7100444A50 /* PersonMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7DF195F42B8B8B7100444A50 /* PersonMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7DF195F92B8B9DAC00444A50 /* NSSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSet.swift; sourceTree = "<group>"; };
+		7DF195FB2B8BA91300444A50 /* MockPersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPersonService.swift; sourceTree = "<group>"; };
+		7DFF48AC2B8C899C000DCC9F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		7DFF48AE2B8C8C22000DCC9F /* AdditionalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalData.swift; sourceTree = "<group>"; };
+		7DFF48B02B8C8C3D000DCC9F /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6044AE2B8B626B00117370 /* Kingfisher in Frameworks */,
+				7D60446B2B87BA9900117370 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,11 +148,15 @@
 		7D60442B2B87B61200117370 /* Pipedrive Homework */ = {
 			isa = PBXGroup;
 			children = (
+				7DFF48AB2B8C896D000DCC9F /* Resources */,
+				7D6044902B88AE9300117370 /* Persistance */,
+				7D6044882B88A66000117370 /* Extensions */,
+				7D60446E2B87BEBE00117370 /* Service */,
+				7D6044622B87B91800117370 /* ViewModel */,
+				7D6044612B87B91200117370 /* View */,
+				7D6044602B87B8A100117370 /* Network */,
+				7D60445B2B87B6EB00117370 /* Model */,
 				7D60442C2B87B61200117370 /* Pipedrive_HomeworkApp.swift */,
-				7D60442E2B87B61200117370 /* ContentView.swift */,
-				7D6044302B87B61300117370 /* Assets.xcassets */,
-				7D6044352B87B61300117370 /* Persistence.swift */,
-				7D6044372B87B61300117370 /* Pipedrive_Homework.xcdatamodeld */,
 				7D6044322B87B61300117370 /* Preview Content */,
 			);
 			path = "Pipedrive Homework";
@@ -111,7 +165,6 @@
 		7D6044322B87B61300117370 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7D6044332B87B61300117370 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -120,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				7D6044422B87B61300117370 /* Pipedrive_HomeworkTests.swift */,
+				7DF195FB2B8BA91300444A50 /* MockPersonService.swift */,
 			);
 			path = "Pipedrive HomeworkTests";
 			sourceTree = "<group>";
@@ -131,6 +185,97 @@
 				7D60444E2B87B61300117370 /* Pipedrive_HomeworkUITestsLaunchTests.swift */,
 			);
 			path = "Pipedrive HomeworkUITests";
+			sourceTree = "<group>";
+		};
+		7D60445B2B87B6EB00117370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DF195E82B8B8AAC00444A50 /* Core Data */,
+				7D60445C2B87B6F500117370 /* Person.swift */,
+				7D60447B2B87E5F500117370 /* ResponseModel.swift */,
+				7D6044B02B8B732C00117370 /* PersonDetailField.swift */,
+				7D6044B22B8B79A500117370 /* PersonContact.swift */,
+				7DFF48AE2B8C8C22000DCC9F /* AdditionalData.swift */,
+				7DFF48B02B8C8C3D000DCC9F /* Pagination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D6044602B87B8A100117370 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044652B87B9F700117370 /* APIClient.swift */,
+				7D6044672B87BA2100117370 /* APIRouter.swift */,
+				7D60446C2B87BBE300117370 /* APIConfig.swift */,
+				7D6044A62B88DFEC00117370 /* Connectivity.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7D6044612B87B91200117370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044B42B8B7E2500117370 /* PersonListView.swift */,
+				7D60442E2B87B61200117370 /* ContentView.swift */,
+				7D6044A82B88F10B00117370 /* PersonView.swift */,
+				7D6044AA2B88F18A00117370 /* PersonDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D6044622B87B91800117370 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044632B87B94300117370 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D60446E2B87BEBE00117370 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7D60446F2B87BED600117370 /* PersonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7D6044882B88A66000117370 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044892B88A69400117370 /* JSONDecoder.swift */,
+				7DF195F92B8B9DAC00444A50 /* NSSet.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D6044902B88AE9300117370 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044942B88B11A00117370 /* CoreDataModel.xcdatamodeld */,
+				7D6044A42B88D77600117370 /* CoreDataManager.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		7DF195E82B8B8AAC00444A50 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7DF195F12B8B8B7100444A50 /* PersonContactMO+CoreDataClass.swift */,
+				7DF195F22B8B8B7100444A50 /* PersonContactMO+CoreDataProperties.swift */,
+				7DF195F32B8B8B7100444A50 /* PersonMO+CoreDataClass.swift */,
+				7DF195F42B8B8B7100444A50 /* PersonMO+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		7DFF48AB2B8C896D000DCC9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D6044332B87B61300117370 /* Preview Assets.xcassets */,
+				7D6044302B87B61300117370 /* Assets.xcassets */,
+				7DFF48AC2B8C899C000DCC9F /* Localizable.xcstrings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +294,10 @@
 			dependencies = (
 			);
 			name = "Pipedrive Homework";
+			packageProductDependencies = (
+				7D60446A2B87BA9900117370 /* Alamofire */,
+				7D6044AD2B8B626B00117370 /* Kingfisher */,
+			);
 			productName = "Pipedrive Homework";
 			productReference = 7D6044292B87B61200117370 /* Pipedrive Homework.app */;
 			productType = "com.apple.product-type.application";
@@ -219,8 +368,13 @@
 			knownRegions = (
 				en,
 				Base,
+				et,
 			);
 			mainGroup = 7D6044202B87B61200117370;
+			packageReferences = (
+				7D6044692B87BA9900117370 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7D6044AC2B8B626B00117370 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7D60442A2B87B61200117370 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +393,7 @@
 			files = (
 				7D6044342B87B61300117370 /* Preview Assets.xcassets in Resources */,
 				7D6044312B87B61300117370 /* Assets.xcassets in Resources */,
+				7DFF48AD2B8C899D000DCC9F /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +418,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6044362B87B61300117370 /* Persistence.swift in Sources */,
+				7D60445D2B87B6F500117370 /* Person.swift in Sources */,
+				7D60448A2B88A69400117370 /* JSONDecoder.swift in Sources */,
+				7DFF48AF2B8C8C22000DCC9F /* AdditionalData.swift in Sources */,
+				7D6044A72B88DFEC00117370 /* Connectivity.swift in Sources */,
+				7D60447C2B87E5F500117370 /* ResponseModel.swift in Sources */,
+				7D6044AB2B88F18A00117370 /* PersonDetailView.swift in Sources */,
+				7DF195F62B8B8B7100444A50 /* PersonContactMO+CoreDataProperties.swift in Sources */,
+				7D6044B32B8B79A500117370 /* PersonContact.swift in Sources */,
+				7D6044662B87B9F700117370 /* APIClient.swift in Sources */,
+				7D6044B52B8B7E2500117370 /* PersonListView.swift in Sources */,
+				7D6044642B87B94300117370 /* PersonViewModel.swift in Sources */,
+				7DF195F72B8B8B7100444A50 /* PersonMO+CoreDataClass.swift in Sources */,
+				7DFF48B12B8C8C3D000DCC9F /* Pagination.swift in Sources */,
+				7D6044962B88B11A00117370 /* CoreDataModel.xcdatamodeld in Sources */,
+				7DF195F82B8B8B7100444A50 /* PersonMO+CoreDataProperties.swift in Sources */,
+				7DF195F52B8B8B7100444A50 /* PersonContactMO+CoreDataClass.swift in Sources */,
+				7D6044702B87BED600117370 /* PersonService.swift in Sources */,
+				7DF195FA2B8B9DAC00444A50 /* NSSet.swift in Sources */,
+				7D6044A52B88D77600117370 /* CoreDataManager.swift in Sources */,
 				7D60442F2B87B61200117370 /* ContentView.swift in Sources */,
-				7D6044392B87B61300117370 /* Pipedrive_Homework.xcdatamodeld in Sources */,
+				7D60446D2B87BBE300117370 /* APIConfig.swift in Sources */,
+				7D6044B12B8B732C00117370 /* PersonDetailField.swift in Sources */,
+				7D6044A92B88F10B00117370 /* PersonView.swift in Sources */,
+				7D6044682B87BA2100117370 /* APIRouter.swift in Sources */,
 				7D60442D2B87B61200117370 /* Pipedrive_HomeworkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF195FC2B8BA91300444A50 /* MockPersonService.swift in Sources */,
 				7D6044432B87B61300117370 /* Pipedrive_HomeworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,14 +774,46 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		7D6044692B87BA9900117370 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.0;
+			};
+		};
+		7D6044AC2B8B626B00117370 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D60446A2B87BA9900117370 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6044692B87BA9900117370 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7D6044AD2B8B626B00117370 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6044AC2B8B626B00117370 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		7D6044372B87B61300117370 /* Pipedrive_Homework.xcdatamodeld */ = {
+		7D6044942B88B11A00117370 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7D6044382B87B61300117370 /* Pipedrive_Homework.xcdatamodel */,
+				7D6044952B88B11A00117370 /* CoreDataModel.xcdatamodel */,
 			);
-			currentVersion = 7D6044382B87B61300117370 /* Pipedrive_Homework.xcdatamodel */;
-			path = Pipedrive_Homework.xcdatamodeld;
+			currentVersion = 7D6044952B88B11A00117370 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

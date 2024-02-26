@@ -33,38 +33,38 @@ extension PersonMO {
 
 // MARK: Generated accessors for phone
 extension PersonMO {
-
+    
     @objc(addPhoneObject:)
     @NSManaged public func addToPhone(_ value: PersonContactMO)
-
+    
     @objc(removePhoneObject:)
     @NSManaged public func removeFromPhone(_ value: PersonContactMO)
-
+    
     @objc(addPhone:)
     @NSManaged public func addToPhone(_ values: NSSet)
-
+    
     @objc(removePhone:)
     @NSManaged public func removeFromPhone(_ values: NSSet)
-
+    
 }
 
 // MARK: Generated accessors for email
 extension PersonMO {
-
+    
     @objc(addEmailObject:)
     @NSManaged public func addToEmail(_ value: PersonContactMO)
-
+    
     @objc(removeEmailObject:)
     @NSManaged public func removeFromEmail(_ value: PersonContactMO)
-
+    
     @objc(addEmail:)
     @NSManaged public func addToEmail(_ values: NSSet)
-
+    
     @objc(removeEmail:)
     @NSManaged public func removeFromEmail(_ values: NSSet)
-
+    
 }
 
 extension PersonMO : Identifiable {
-
+    
 }

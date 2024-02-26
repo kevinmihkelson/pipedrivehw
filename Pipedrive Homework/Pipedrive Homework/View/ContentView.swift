@@ -8,20 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject private var personViewModel: PersonViewModel = PersonViewModel(itemsFromEndThreshold: 1, limit: 15)
+    
     var body: some View {
         NavigationView {
-            Text("Select an item")
+            PersonListView(personViewModel: personViewModel)
+        }.task {
+            await personViewModel.getPersonList()
         }
     }
-}
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
-
-#Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }

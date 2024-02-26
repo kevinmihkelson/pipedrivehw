@@ -8,29 +8,41 @@
 import XCTest
 @testable import Pipedrive_Homework
 
-final class Pipedrive_HomeworkTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+final class Pipedrive_HomeworkViewModelTests: XCTestCase {
+    var viewModel: PersonViewModel!
+    
+    func testFetchingPersons() async {
+        // Given
+        let mockPersonService = MockPersonService()
+        viewModel = PersonViewModel(personService: mockPersonService, itemsFromEndThreshold: 1, limit: 10)
+        
+        // When
+        await viewModel.getPersonList()
+        
+        // Then
+        XCTAssertNotNil(viewModel.personList)
+        
+        // 10 is the limit in the ViewModel, which tells us how many items it'll fetch
+        XCTAssertEqual(viewModel.personList.count, 10)
+        XCTAssertEqual(viewModel.personList[0].id, MockPersonService.mockPersonList[0].id)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testFetchingAdditionalPersons() async {
+        // Given
+        let mockPersonService = MockPersonService()
+        viewModel = PersonViewModel(personService: mockPersonService, itemsFromEndThreshold: 1, limit: 15)
+        
+        // When
+        await viewModel.getPersonList()
+        
+        /// The index 14 is the threshold index for fetching more people:
+        /// - If the limit is 15 and the itemsFromEndThreshold is 1, it'll fetch more data, if more items are available
+        await viewModel.requestMore(index: 14)
+        
+        // Then
+        XCTAssertNotNil(viewModel.personList)
+        XCTAssertEqual(viewModel.personList.count, MockPersonService.mockPersonList .count)
+        XCTAssertEqual(viewModel.personList[0].id, MockPersonService.mockPersonList[0].id)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
 }

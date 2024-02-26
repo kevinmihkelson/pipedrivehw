@@ -7,28 +7,45 @@
 
 import Foundation
 import SwiftUI
+import Kingfisher
 
 struct PersonView: View {
     let person: Person
-
+    
     var body: some View {
-        HStack {
-            // Display person's name and ID with appropriate formatting
-            VStack(alignment: .leading) {
-                Text(person.name)
-                    .font(.title3)
-                    .fontWeight(.bold)
-                Text("ID: \(person.id)")
-                    .font(.caption)
+        NavigationLink(destination: PersonDetailView(person: person)) {
+            HStack {
+                KFImage(person.imageURL.flatMap(URL.init))
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                    .clipShape(.circle)
+                    .overlay(
+                        Image(systemName: "person.crop.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.gray)
+                            .opacity(person.imageURL == nil ? 1 : 0)
+                    )
+                VStack(alignment: .leading) {
+                    Text(person.name ?? "-")
+                        .font(.title3)
+                        .fontWeight(.bold)
+                    VStack {
+                        Text(NSLocalizedString("Organization: ", comment: ""))
+                        + Text(person.orgName ?? "-")
+                    }
+                    .font(.headline)
+                    .fontWeight(.medium)
                     .foregroundColor(.gray)
+                    VStack {
+                        Text(NSLocalizedString("Title: ", comment: ""))
+                        + Text(person.jobTitle ?? "-")
+                    }.font(.headline)
+                        .fontWeight(.medium)
+                        .foregroundColor(.gray)
+                }
+                Spacer()
             }
-
-            // Add other relevant person details as needed (e.g., email, phone number)
-            Spacer()
         }
-        .padding()
-        .background(Color.white)
-        .cornerRadius(10)
-        .shadow(radius: 5)
     }
 }
