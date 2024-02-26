@@ -84,7 +84,7 @@ The following models are used in the REST API:
 * **PersonContact**
     * label: **String?** - A label for the contact information (e.g., "Mobile", "Work").
     * value: **String?** - The actual contact information (e.g., phone number, email address).
-    * primary: **Bool?** Indicates whether this is the primary contact information for the specific label (e.g., primary phone number).
+    * primary: **Bool?** - Indicates whether this is the primary contact information for the specific label (e.g., primary phone number).
     
 * **AdditionalData**
     * pagination: **Pagination?** - Information related to pagination, used for endless scroll implementation.
@@ -92,7 +92,7 @@ The following models are used in the REST API:
 * **Pagination**
     * start: **Int** - The index of the first element in the current page of results
     * limit: **Int** - The number of items per page
-    * moreItemsInCollection: **Bool** Indicates whether there are more items available beyond the current page
+    * moreItemsInCollection: **Bool** - Indicates whether there are more items available beyond the current page
     
 The following models are used in the CoreData:
 
