@@ -21,7 +21,7 @@ swift package update
 
 This will install the dependencies and update the project's Xcode project file.
 
-5. Update the APIKey value in the APIRouter
+**5. Update the APIKey value in the APIRouter**
 6. Click on the Play button in Xcode to run the application.
 
 The application should now be running.
