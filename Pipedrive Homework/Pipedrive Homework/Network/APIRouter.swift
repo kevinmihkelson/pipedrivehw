@@ -15,7 +15,7 @@ public enum APIRouter {
     private static let environment = APIConfig.live
     
     // Don't want the actual token to be visible in GitHub
-    private static let apiToken = "f6ccfa30da451f612b3645d52ad162c1e5be5d78"
+    private static let apiToken = ""
 
     var urlPath: String {
         let baseUrl = APIRouter.environment.baseURL
