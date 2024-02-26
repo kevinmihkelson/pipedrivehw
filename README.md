@@ -4,6 +4,7 @@
 
 Build a simple master-detail application that displays a list of people from your Pipedrive account (to get
 the list, use /persons endpoint).
+
 The app should contain:
 
 - A screen with the list of people obtained from Pipedrive API
